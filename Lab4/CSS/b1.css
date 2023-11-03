@@ -1,0 +1,40 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    text-align: center;
+    background-color: rgb(176, 222, 227);
+    padding: 10px 100px;
+
+}
+
+.container h1{
+    color: rgb(202, 124, 124);
+}
+svg{
+    color: aqua;
+    padding: 1px;
+    border: 1px solid #379da6;
+    border-radius: 50%;
+}
+input{
+    display: block;
+    margin: 5px auto;
+    border: none;
+    width: 70%;
+    border-radius: 5px;
+}
+button{
+    padding: 15px 20px ;
+    border: none;
+    background-color: rgb(91, 191, 158);
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
