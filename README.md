@@ -1,4 +1,4 @@
-# MAT3542_WebDevelopment# Tên Dự án
+# MAT3542_WebDevelopment HUS
 
 ## Giới thiệu
 
