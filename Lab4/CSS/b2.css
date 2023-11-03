@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+
+}
+
+.container{
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.container .content{
+    flex: 2;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.container h1{
+    color: rgb(206, 52, 78);
+}
+.container .img{
+    flex: 1;
+    margin-left: 10px;
+    padding: 0;
+}
