@@ -116,3 +116,7 @@ body {
     border: 1px solid red;
     color: red;
   }
+  p{
+    min-width: 200px;
+    max-width: 800px;
+  }

@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    gap: 0 2px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col-left{
+    width: 66.667%;
+}
+
+.col-left .col-title{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.auto-search-wrap{
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.col-title{
+    padding: 15px 0;
+    background: #31356B;
+    text-transform: uppercase;
+    color: white;
+}
+
+.auto-input-search{
+    display: block;
+    width: 100%;
+}
+
+.col-right{
+    border: 1px solid gray;
+    width: 33.333%;
+}
+
+.col-right .col-title{
+    padding-left: 16px;
+}
+
+.auto-info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+    padding: 15px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+input{
+    padding: 8px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+table{
+    width: 100%;
+}
+
+table  thead th{
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+select{
+    padding: 8px;
+}
+
+label span{
+    color: red;
+}
+
+option:not(.option-parent){
+    padding-left: 20px;
+}
+
+.option-parent{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.message-error{
+    color: red;
+    font-size: 14px;
+}

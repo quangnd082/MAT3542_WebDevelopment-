@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./app.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="col-left">
+            <div class="col-title">
+                Danh sách xe oto
+            </div>
+            <div class="auto-search-wrap">
+                <input type="text" placeholder="Tìm kiếm..." class="auto-input-search"></input>
+            </div>
+            <table class="auto-table">
+                <thead>
+                    <tr>
+                        <th scope="col">STT</th>
+                        <th scope="col">Tên xe</th>
+                        <th scope="col">Hình ảnh</th>
+                        <th scope="col">Hãng xe</th>
+                        <th scope="col">Giá tiền</th>
+                        <th scope="col">Người liên hệ</th>
+                        <th scope="col">Điện thoại</th>
+                        <th scope="col">Email</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="col-right">
+            <div class="col-title">
+                Thông tin về xe oto
+            </div>
+            <form action="">
+                <div class="auto-info">
+                    <div class="input-group input-">
+                        <label for="">Tên xe <span>*</span></label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="">Hình ảnh</label>
+                        <input type="text" name="image">
+                    </div>
+                    <div class="input-group">
+                        <label for="">Hãng xe <span>*</span></label>
+                        <select name="brand" id="" class="input-select" required>
+                            <option value="0">--Hãng xe--</option>
+                            <option value="1" class="option-parent">Swedish Cars</option>
+                            <option value="2">Volvo</option>
+                            <option value="3">Saab</option>
+                            <option value="4" class="option-parent">German Cars</option>
+                            <option value="5">Mercedes</option>
+                            <option value="6">Audi</option>
+                            <option value="7" class="option-parent">Vietnamese Cars</option>
+                            <option value="8">Vinfast</option>
+                            <option value="9">Mazda</option>
+                            <option value="10" class="option-parent">Quang Cars</option>
+                            <option value="11">Quangdz</option>
+                            <option value="12">Trang</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="">Giá tiền <span>*</span></label>
+                        <input type="number" name="price" min="0" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="">Mô tả</label>
+                        <textarea name="description" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <label for="">Người liên hệ <span>*</span></label>
+                        <input type="text" name="user_name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="">Số điện thoại người liên hệ <span>*</span></label>
+                        <input type="text" name="user_phone" required>
+                        <span class="message-error error-phone"></span>
+                    </div>
+                    <div class="input-group">
+                        <label for="">Email <span>*</span></label>
+                        <input type="email" name="user_email" required>
+                        <span class="message-error error-email"></span>
+                    </div>
+                    <div class="actions">
+                        <button type="submit" id="save">Lưu</button>
+                        <button type="button" id="delete">Xoá</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
