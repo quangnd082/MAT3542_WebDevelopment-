@@ -1,0 +1,160 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(250, 250, 250);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .wrapper .image {
+} */
+.wrapper .image {
+    margin-right: 40px;   
+    background-image: url(../Assets/Images/phone_1.png);
+    width: 380px;
+    height: 600px;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide {
+    25% {
+        background-image: url(../Assets/Images/phone_2.png);
+    }
+    50% {
+        background-image: url(../Assets/Images/phone_3.png);
+    }
+    75% {
+        background-image: url(../Assets/Images/phone_4.png);
+    }
+    100% {
+        background-image: url(../Assets/Images/phone_1.png);
+    }
+}
+
+.container {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content, .sign-up {
+    background-color: white;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content h3 {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.content input {
+    margin-bottom: 5px;
+    padding: 10px 8px;
+    width: 80%;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 2px;
+    color: rgb(233, 233, 233);
+}
+
+.content .button {
+    margin: 5px 10%;
+    padding: 8px 0;
+    width: 85%;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(179, 222, 254);
+}
+
+.content span {
+    color: rgb(159, 171, 181);
+    margin: 10px auto;
+}
+
+.content p {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(54, 79, 135);
+    display: flex;
+    align-items: center;
+}
+
+.content p img {
+    margin-right: 3px;
+}
+
+.content a {
+    margin: 10px auto 20px;
+    text-decoration: none;
+    color: rgb(54, 79, 135);
+}
+
+.sign-up {
+    text-align: center;
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: rgb(10, 157, 235);
+    font-weight: bold;
+}
+
+.get-the-app > p{
+    text-align: center;
+}
+
+.get-the-app .get-on {
+    display: flex;
+    justify-content: center;
+}
+
+.get-the-app .get-on > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.get-the-app .get-on img {
+    height: 24px;
+    padding: 10px 5px;
+}
+
+.get-the-app .get-on .app-store img {
+    color: white;
+    padding: 10px 8px;
+}
+
+.get-the-app .get-on p {
+    font-size: xx-small;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.get-the-app .get-on span {
+    font-size: large;
+}

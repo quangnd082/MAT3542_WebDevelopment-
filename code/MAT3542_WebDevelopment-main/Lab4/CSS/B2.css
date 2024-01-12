@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 700px;
+}
+
+.left-img {
+    padding: 0 50px;
+    text-align: center;
+    border: 3px solid black;
+    margin-right: 40px;
+}
+
+.left-img span {
+    font-size: 100px;
+}
+
+.left-img p {
+    font-size: 40px;
+}
+
+button {
+    padding: 5px 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: white;
+}

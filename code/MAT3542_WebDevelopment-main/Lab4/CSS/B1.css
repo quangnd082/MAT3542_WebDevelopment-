@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(232, 231, 231);
+    padding: 10px 100px;
+}
+
+svg {
+    color: aqua;
+    padding: 10px;
+    border: 2px solid #38afb7;
+    border-radius: 50%;
+}
+
+input {
+    display: block;
+    margin: 5px auto;
+    padding: 20px 10px;
+    border: none;
+    width: 70%;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px 20px;
+    border: none;
+    background-color: #38afb7;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    border: 1px solid;
+    width: 620px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.header, .navbar, .footer {
+    grid-column: span 2;
+    display: flex;
+}
+
+.header, .footer {
+    justify-content: space-between;
+}
+
+.header {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-left, .header-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-left .logo {
+    text-align: center;
+    margin-right: 50%;
+    padding: 10px 20px;
+    background-color: #868182;
+    color: white;
+}
+
+.header-left a {
+    margin-top: 10%;
+    text-decoration: none;
+    color: #868182;
+}
+
+.header-right .button, .header-right ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-right .btn {
+    color: white;
+}
+
+.header-right ul {
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.header-right a {
+    text-decoration: none;
+    padding: 0 5px;
+    border-right: 1px solid;
+}
+
+.header-right li:first-child a {
+    padding-left: 0;
+}
+
+.header-right li:last-child a {
+    border: none;
+    padding-right: 0;
+}
+
+.header-right .btn {
+    padding: 5px 10px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.header-right .btn1 {
+    margin-right: 5px;
+}
+
+.navbar {
+    background-color: #868182;
+    margin-top: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    padding: 0 5px;
+    border-right: 2px solid ;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li:first-child a {
+    padding-left: 0;
+}
+
+.navbar li:last-child a {
+    border: none;
+    padding-right: 0;
+}
+
+.content , .sidebar {
+    margin: 0 10px;
+}
+
+.content .product h3 {
+    color: #bababa;
+    border-bottom: 1px solid #868182;
+    margin-bottom: 10px;
+}
+
+.content .product h4 {
+    margin: 0;
+    color: blue;
+}
+
+.content .product p {
+    margin-top: 10px;
+}
+
+.content .product .img {
+    float: left;
+    padding: 50px 60px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    background-color: #868182;
+    color: white;
+    border-radius: 5px;
+}
+
+.content .product .box {
+    margin-top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #eeeeee;
+}
+
+.content .product .subbox {
+    width: 15%;
+    height: 80%;
+    background-color: #868182;
+}
+
+.content .sub-new {
+    margin-left: 10px;
+}
+
+.content .news h3 {
+    color: #bababa;
+    border-bottom: 1px solid #868182;
+}
+
+.content .sub-new p {
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom: 1px dashed ;
+}
+
+.content .sub-new .p3 {
+    border-bottom: none;
+}
+
+.content .sub-new span {
+    padding-left: 2px;
+    color: blue;
+}
+
+.content .banner-contact {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #868182;
+    color: white;
+}
+
+.sidebar .relate-link-1 h3, .sidebar .relate-link-2 h3{
+    color: #bababa;
+    border-bottom: 1px solid #868182;
+    margin-bottom: 8px;
+}
+
+.sidebar .relate-link-1 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: blue;
+}
+
+.sidebar .relate-link-2 {
+    margin-top: 20%;
+}
+
+.sidebar .sub-banner {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    background-color: #868182;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer {
+    border-top: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.footer .info {
+    margin: 0;
+}
+
+.footer p {
+    margin: 0;
+    padding-left: 8px;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.footer ul a {
+    text-decoration: none;
+    padding: 0 10px;
+    border-right: 1px solid;
+}
+
+.footer li:last-child a {
+    border: none;
+}
+
+.footer .copyright p {
+    text-align: end;
+    padding-right: 10px;
+}
+
+
+
+
+
+

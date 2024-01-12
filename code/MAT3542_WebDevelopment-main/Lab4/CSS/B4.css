@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.top-content {
+    padding: 30px 40px 40px;
+    background-color: rgb(1, 186, 207);
+    color: white;
+}
+
+.top-content p {
+    font-size: larger;
+    width: 60%;
+    font-weight: bolder;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    background-color: rgb(247, 247, 247);
+}
+
+.bottom-content .box {
+    position: relative;
+    top: -50px;
+    margin: 0 10px;
+    padding: 30px 20px 20px;
+    background-color: white;
+}
+
+.box p {
+    color: rgb(190, 190, 190);
+}
+
+.box span {
+    font-size: 30px;
+}

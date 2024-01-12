@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 700px;
+}
+
+.container .p1{
+    font-weight: bold;
+}
+
+.enter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-name, .email {
+    flex-basis: 42%;
+    padding: 10px 15px;
+}
+
+.subject {
+    margin: 10px 0;
+    flex-basis: 100%;
+    padding: 10px 15px;
+}
+
+textarea {
+    width: 96%;
+    padding: 10px 15px;
+    margin-right: 0;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(37, 151, 239);
+    border: none;
+    border-radius: 5px;
+}
+
+.check p {
+    margin-top: 0;
+    color: gray;
+}
+
